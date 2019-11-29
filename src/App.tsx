@@ -2,13 +2,20 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Test from './test';
-import allNames from './di-no/main'
+import { Katana , Ninja, Shuriken } from './di/entities'
+
 
 const App: React.FC = () => {
   return (
 
     <div className="App">
-      {console.log(allNames)}
+      {/* {console.log(allNames)} */}
+      {
+
+
+
+
+      }
       <Test />
     </div>
   );

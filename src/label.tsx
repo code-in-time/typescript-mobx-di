@@ -26,7 +26,7 @@ export default class Label extends React.Component<ILabelProps, ILabelState> {
         <input
           type="text"
           value={this.props.data.name }
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => this.props.data.name = e.target.value } />
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => this.props.data.name = e.target.value } placeholder={this.props.data.age.toString()} />
       </div>
     );
   }
